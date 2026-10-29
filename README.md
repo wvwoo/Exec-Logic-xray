@@ -1,5 +1,8 @@
 # Exec Logic | XRay Financial Early Warning
 
+> **Release update (29 Oct 2026):** [Reproducible disclosure-safe release and review boundaries](docs/RELEASE_2026-10-29.md) now includes a two-row public dataset, a deterministic Python pipeline and tests. **The leader reports team human/financial/accounting review complete, but signed row-level certification is not independently shown; the updated Ritaj source contains unresolved differences.** PDF, deck and screenshot/video are prepared locally but are not yet uploaded here. Official organizer submission and X publication are not evidenced. The earlier status notes below document development history, not the current binary upload state.
+
+
 **الفريق:** Exec Logic  
 **المشروع:** أشعة إكس مالية — الإنذار المالي المبكر لجمعيات منطقة مكة المكرمة  
 **Submission status:** Work in progress — **final v6 financial/statistical results are NOT certified**.

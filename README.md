@@ -51,3 +51,30 @@ The gate checks logged decisions and duplicate license/year keys; it **cannot** 
 [دليل مسابقة تحليل البيانات للقطاع غير الربحي](https://drive.google.com/file/d/1XjBjiYW_UCdVuZqicMA3O23pdpHbqdte/view)
 
 **Maintained by Exec Logic.**
+
+## 29 October 2026 descriptive findings (reproduced)
+
+**These are NOT finalized survey-weighted v6 estimates.** The project lead reports completion of human review; linking signed decisions to each included record and final sample weights is still an outstanding publication gate.
+
+- 251 association-year source rows; 5 fixed exclusions / temporary quarantines
+- 246 remaining candidate rows; 43 missing geographic group and 4 reserve-role records
+- 199 grouped primary association-year rows, reduced to latest year for 92 associations
+- 22/92 = **23.9%** confirmed early-warning signal in the available sample (descriptive Wilson interval 16.4–33.6%)
+- Large cities: 12/49 = **24.5%**; other governorates: 10/43 = **23.3%**
+- 88/92 have all five indicator inputs evaluable; four are incomplete
+
+To reproduce **all 12 aggregate metrics** with Python standard library:
+
+```sh
+python scripts/run_public_analysis.py --input data_clean/aggregated_indicator_counts.csv --output outputs/public_metrics.json
+python -m unittest discover -s tests -v
+```
+
+The 17-row aggregation intentionally excludes organization names, IDs, financial amounts and internal reviewer details. It reproduces released descriptive percentages only, not source-PDF extraction or design-based inference.
+
+- [Arabic findings](report/executive_summary.md)
+- [Data lineage and privacy limitations](docs/data_lineage.md)
+- [X post draft / publication status](docs/X_post_draft.md)
+- [Official delivery checklist](docs/submission_checklist.md)
+
+**PDF executive report and PowerPoint deck are prepared outside GitHub and still need to be uploaded to this repository.** Neither an X post nor official competition form submission has been completed through this conversation.

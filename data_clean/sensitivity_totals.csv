@@ -1,0 +1,9 @@
+scenario,description,group,associations,confirmed_alert,five_flags_evaluable,alerts_among_five_evaluable,critical_cash,negative_unrestricted_net_assets
+S0,Released sample: grouped primary units as carried by the evidence gate,المدن الكبرى,49,12,48,12,6,9
+S0,Released sample: grouped primary units as carried by the evidence gate,المحافظات الأخرى,43,10,40,9,10,8
+S1,Group and role restored from the approved sample file for rows the gate merge left blank (primary only),المدن الكبرى,50,14,50,14,6,9
+S1,Group and role restored from the approved sample file for rows the gate merge left blank (primary only),المحافظات الأخرى,46,10,43,9,11,8
+S1b,S1 with one additional row held for a sign inconsistency,المدن الكبرى,50,13,50,13,6,9
+S1b,S1 with one additional row held for a sign inconsistency,المحافظات الأخرى,46,10,43,9,11,8
+S3,S0 without associations whose latest or previous year is one of the ten pending difference cases,المدن الكبرى,45,12,44,12,6,9
+S3,S0 without associations whose latest or previous year is one of the ten pending difference cases,المحافظات الأخرى,41,10,38,9,10,6

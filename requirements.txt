@@ -1,2 +1,2 @@
-# The initial quality-gate script and synthetic tests use Python >=3.9 stdlib only.
-# Dependencies for the eventual independently certified statistical analysis are pending.
+# Base reproducibility: Python 3.9+ standard library only.
+# Optional: matplotlib>=3.7 for graphics build (not needed for the analysis).

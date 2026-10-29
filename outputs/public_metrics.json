@@ -1,7 +1,7 @@
 [
   {
     "group": "المدن الكبرى",
-    "metric": "confirmed_red",
+    "metric": "confirmed_alert",
     "n": 49,
     "count": 12,
     "share": 0.244898,
@@ -12,7 +12,7 @@
   },
   {
     "group": "المدن الكبرى",
-    "metric": "full5_red",
+    "metric": "full5_alert",
     "n": 48,
     "count": 12,
     "share": 0.25,
@@ -23,7 +23,7 @@
   },
   {
     "group": "المدن الكبرى",
-    "metric": "cash_crit",
+    "metric": "critical_cash",
     "n": 49,
     "count": 6,
     "share": 0.122449,
@@ -34,7 +34,7 @@
   },
   {
     "group": "المدن الكبرى",
-    "metric": "unres_neg",
+    "metric": "negative_unrestricted_net_assets",
     "n": 49,
     "count": 9,
     "share": 0.183673,
@@ -45,7 +45,7 @@
   },
   {
     "group": "المحافظات الأخرى",
-    "metric": "confirmed_red",
+    "metric": "confirmed_alert",
     "n": 43,
     "count": 10,
     "share": 0.232558,
@@ -56,7 +56,7 @@
   },
   {
     "group": "المحافظات الأخرى",
-    "metric": "full5_red",
+    "metric": "full5_alert",
     "n": 40,
     "count": 9,
     "share": 0.225,
@@ -67,7 +67,7 @@
   },
   {
     "group": "المحافظات الأخرى",
-    "metric": "cash_crit",
+    "metric": "critical_cash",
     "n": 43,
     "count": 10,
     "share": 0.232558,
@@ -78,7 +78,7 @@
   },
   {
     "group": "المحافظات الأخرى",
-    "metric": "unres_neg",
+    "metric": "negative_unrestricted_net_assets",
     "n": 43,
     "count": 8,
     "share": 0.186047,
@@ -89,7 +89,7 @@
   },
   {
     "group": "الكل",
-    "metric": "confirmed_red",
+    "metric": "confirmed_alert",
     "n": 92,
     "count": 22,
     "share": 0.23913,
@@ -100,7 +100,7 @@
   },
   {
     "group": "الكل",
-    "metric": "full5_red",
+    "metric": "full5_alert",
     "n": 88,
     "count": 21,
     "share": 0.238636,
@@ -111,7 +111,7 @@
   },
   {
     "group": "الكل",
-    "metric": "cash_crit",
+    "metric": "critical_cash",
     "n": 92,
     "count": 16,
     "share": 0.173913,
@@ -122,7 +122,7 @@
   },
   {
     "group": "الكل",
-    "metric": "unres_neg",
+    "metric": "negative_unrestricted_net_assets",
     "n": 92,
     "count": 17,
     "share": 0.184783,

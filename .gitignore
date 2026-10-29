@@ -1,0 +1,23 @@
+# Keep non-certified or restricted materials off the public repository
+/data_clean/*.csv
+/data_clean/*.tsv
+/data_clean/*.xlsx
+/data_clean/*.xls
+/data_clean/*.parquet
+/data_clean/*.json
+/outputs/qa/
+/source_pdfs/
+/private_audit/
+/inputs/
+*.zip
+*.7z
+*.rar
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+.DS_Store

@@ -1,0 +1,2 @@
+# The initial quality-gate script and synthetic tests use Python >=3.9 stdlib only.
+# Dependencies for the eventual independently certified statistical analysis are pending.

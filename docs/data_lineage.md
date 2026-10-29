@@ -6,12 +6,7 @@ The raw source is an internal 251-row license/year data join with SHA-256:
 `6074ff54561ff4592df98d241dbba2db453dd8df2d38f7ad2ed3c1d3eb13248e`.
 Restricted input bytes and named source documents are intentionally omitted from this public repository.
 
-A deterministic local quality gate excludes/quarantines five records:
-- 2040/2025: a planned budget, not actual financial statements
-- 2075/2022: outside the 2023–2025 study range
-- 478/2023: identity mismatch held for evidence
-- 4060/2024: unresolved source conflict
-- 4137/2024: unresolved statement discrepancy
+A deterministic local quality gate excludes/quarantines five association/year records: two fixed removals (one forecast budget and one out-of-period year), plus three temporary evidence/identity holds. Registration identifiers and individual exception reasons are retained **only in the private audit log**, not in this public repository, to avoid potentially harmful public attribution before adjudication.
 
 The remaining 246 rows include 43 without confirmed geography and four reserve units. The grouped primary subset has 199 association/year rows. After choosing one latest year per association, there are 92 analysis units.
 

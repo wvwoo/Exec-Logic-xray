@@ -1,0 +1,134 @@
+[
+  {
+    "group": "المدن الكبرى",
+    "metric": "confirmed_red",
+    "n": 49,
+    "count": 12,
+    "share": 0.244898,
+    "wilson95": [
+      0.146023,
+      0.380863
+    ]
+  },
+  {
+    "group": "المدن الكبرى",
+    "metric": "full5_red",
+    "n": 48,
+    "count": 12,
+    "share": 0.25,
+    "wilson95": [
+      0.149206,
+      0.387844
+    ]
+  },
+  {
+    "group": "المدن الكبرى",
+    "metric": "cash_crit",
+    "n": 49,
+    "count": 6,
+    "share": 0.122449,
+    "wilson95": [
+      0.057348,
+      0.242444
+    ]
+  },
+  {
+    "group": "المدن الكبرى",
+    "metric": "unres_neg",
+    "n": 49,
+    "count": 9,
+    "share": 0.183673,
+    "wilson95": [
+      0.099763,
+      0.313576
+    ]
+  },
+  {
+    "group": "المحافظات الأخرى",
+    "metric": "confirmed_red",
+    "n": 43,
+    "count": 10,
+    "share": 0.232558,
+    "wilson95": [
+      0.131537,
+      0.377445
+    ]
+  },
+  {
+    "group": "المحافظات الأخرى",
+    "metric": "full5_red",
+    "n": 40,
+    "count": 9,
+    "share": 0.225,
+    "wilson95": [
+      0.123161,
+      0.375031
+    ]
+  },
+  {
+    "group": "المحافظات الأخرى",
+    "metric": "cash_crit",
+    "n": 43,
+    "count": 10,
+    "share": 0.232558,
+    "wilson95": [
+      0.131537,
+      0.377445
+    ]
+  },
+  {
+    "group": "المحافظات الأخرى",
+    "metric": "unres_neg",
+    "n": 43,
+    "count": 8,
+    "share": 0.186047,
+    "wilson95": [
+      0.097418,
+      0.32617
+    ]
+  },
+  {
+    "group": "الكل",
+    "metric": "confirmed_red",
+    "n": 92,
+    "count": 22,
+    "share": 0.23913,
+    "wilson95": [
+      0.163551,
+      0.335621
+    ]
+  },
+  {
+    "group": "الكل",
+    "metric": "full5_red",
+    "n": 88,
+    "count": 21,
+    "share": 0.238636,
+    "wilson95": [
+      0.16171,
+      0.337426
+    ]
+  },
+  {
+    "group": "الكل",
+    "metric": "cash_crit",
+    "n": 92,
+    "count": 16,
+    "share": 0.173913,
+    "wilson95": [
+      0.109982,
+      0.263984
+    ]
+  },
+  {
+    "group": "الكل",
+    "metric": "unres_neg",
+    "n": 92,
+    "count": 17,
+    "share": 0.184783,
+    "wilson95": [
+      0.118693,
+      0.276141
+    ]
+  }
+]

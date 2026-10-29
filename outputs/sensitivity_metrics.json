@@ -1,0 +1,82 @@
+[
+  {
+    "scenario": "S0",
+    "description": "Released sample: grouped primary units as carried by the evidence gate",
+    "associations": 92,
+    "alerts": 22,
+    "share": 0.23913,
+    "wilson95": [
+      0.163551,
+      0.335621
+    ],
+    "major_cities": [
+      12,
+      49
+    ],
+    "other_governorates": [
+      10,
+      43
+    ],
+    "fisher_exact_p_two_sided": 1.0
+  },
+  {
+    "scenario": "S1",
+    "description": "Group and role restored from the approved sample file for rows the gate merge left blank (primary only)",
+    "associations": 96,
+    "alerts": 24,
+    "share": 0.25,
+    "wilson95": [
+      0.17414,
+      0.345098
+    ],
+    "major_cities": [
+      14,
+      50
+    ],
+    "other_governorates": [
+      10,
+      46
+    ],
+    "fisher_exact_p_two_sided": 0.637654
+  },
+  {
+    "scenario": "S1b",
+    "description": "S1 with one additional row held for a sign inconsistency",
+    "associations": 96,
+    "alerts": 23,
+    "share": 0.239583,
+    "wilson95": [
+      0.165282,
+      0.333924
+    ],
+    "major_cities": [
+      13,
+      50
+    ],
+    "other_governorates": [
+      10,
+      46
+    ],
+    "fisher_exact_p_two_sided": 0.641897
+  },
+  {
+    "scenario": "S3",
+    "description": "S0 without associations whose latest or previous year is one of the ten pending difference cases",
+    "associations": 86,
+    "alerts": 22,
+    "share": 0.255814,
+    "wilson95": [
+      0.175431,
+      0.357079
+    ],
+    "major_cities": [
+      12,
+      45
+    ],
+    "other_governorates": [
+      10,
+      41
+    ],
+    "fisher_exact_p_two_sided": 1.0
+  }
+]

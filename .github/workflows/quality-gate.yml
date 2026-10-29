@@ -1,22 +1,28 @@
-name: Quality gate synthetic tests
+name: XRay public reproduction and quality tests
 on:
   push:
     paths:
-      - 'scripts/run_quality_gate.py'
-      - 'tests/test_quality_gate.py'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'data_clean/aggregated_indicator_counts.csv'
       - '.github/workflows/quality-gate.yml'
   pull_request:
     paths:
-      - 'scripts/run_quality_gate.py'
-      - 'tests/test_quality_gate.py'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'data_clean/aggregated_indicator_counts.csv'
       - '.github/workflows/quality-gate.yml'
+permissions:
+  contents: read
 jobs:
-  test:
+  reproducibility:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Run synthetic-only tests
+      - name: Run local and public synthetic/aggregate tests
         run: python -m unittest discover -s tests -v
+      - name: Recompute disclosed aggregate numbers
+        run: python scripts/run_public_analysis.py --input data_clean/aggregated_indicator_counts.csv --output outputs/public_metrics.json

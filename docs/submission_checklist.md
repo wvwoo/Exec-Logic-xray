@@ -18,3 +18,19 @@
 - [ ] Submit the post URL and project/code link through the official organizer channel by **October 30, 2026**.
 
 A placeholder file never satisfies a required output. Do not mark a deliverable complete until verified.
+
+
+## Progress update — 2026-10-29
+
+- [x] Run a fresh reproducible descriptive analysis on the available 251-row staged join with five controlled exclusions/holds.
+- [x] Verify reported sample statistics (92 associations; 22 flags; 12/12 aggregate metrics).
+- [x] Publish disclosure-minimized aggregated counts and executable public reproducibility code.
+- [x] Locally produce executive PDF, three PNG figures and a ten-slide PPTX/PDF deck.
+- [ ] Link completed signed human-review decisions and approvals to included license/year rows (project lead attests reviews finished).
+- [ ] Validate final allocation/sampling weights before claiming **design-weighted v6** results.
+- [ ] Upload the PDF and PPTX binaries and approved PNG figures to the public repository, or provide enduring authorized file URLs.
+- [ ] Confirm public distribution rights for any additional source data before publication.
+- [ ] Publish project screenshot / video and actual X post, then record the real X URL.
+- [ ] Complete the organizer's submission form and save its receipt.
+
+**Local artifact creation alone is not proof of online publication or competition submission.**

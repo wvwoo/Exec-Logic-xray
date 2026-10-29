@@ -22,3 +22,13 @@ This log is **provisional** and must be expanded to document significant model-g
 - **Human oversight:** Lead attests human reviews finished, but this agent has not received signed final review decisions tied to each row and therefore does not certify source-level audit completeness.
 - **Validation:** Four private-analysis automated tests passed; matching 12/12 aggregate stats was independently checked against the source-derived outputs.
 - **Publication boundary:** AI did not publish an X post, submit the competition form, or confirm the final design weights.
+
+
+## 2026-10-29 — Updated Ritaj reconciliation and public release candidate
+
+- **New input:** Ritaj's updated financial workbook (59 populated financial-year rows, including one out-of-period 2022 entry; one additional incomplete row).
+- **Automated accounting flags:** 29 activities/change differences and 13 balance identity differences. These are exception candidates rather than verified source-statement errors.
+- **Cross-version check:** 41 matching license/year keys with v5; 311 available numeric comparisons; 84 differences above SAR 1; 18 unmatched Ritaj keys. No amounts were edited automatically.
+- **Human-review declaration:** Project leader reports Exec Logic members completed human, financial and accounting review. Signed independent per-record decisions were not available to this release; no such signature or professional audit opinion is invented.
+- **Publication:** published new two-row non-identifying aggregate data, a deterministic analysis script, synthetic/consistency tests and a release-status document. Created PDF, presentation, visualizations and private audit bundle locally; GitHub binary uploads and official X/form receipt were not evidenced in this session.
+- **Scope:** 12 descriptive metrics for 92 units; no certified survey-weighted v6 inference, association-level risk allegations or claims of full original-PDF re-verification.

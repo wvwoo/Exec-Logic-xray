@@ -1,14 +1,9 @@
-# X post draft (not yet published)
+# Suggested X announcement (not published yet)
 
-> 🔍 مشروع «أشعة إكس مالية» من فريق **Exec Logic**: تحليل وصفي قابل لإعادة الإنتاج لمؤشرات الإنذار المالي المبكر لجمعيات منطقة مكة.
->
-> شملت المقارنة 92 جمعية بأحدث سنة مالية متاحة ضمن النطاق، وظهرت إشارات إنذار لدى 22 جمعية (23.9% من عينة الدراسة). هذه **نسبة وصفية غير موزونة**، وليست تقديرًا لجميع الجمعيات أو توقعًا مؤكدًا للتعثر.
->
-> شاهدوا منهجية التحليل والكود والنتائج: https://github.com/wvwoo/Exec-Logic-xray
->
-> #ExecLogic #تحليل_البيانات #القطاع_غير_الربحي
+🔍 فريق Exec Logic يقدم مشروع «أشعة إكس مالية»: تحليل وصفي قابل لإعادة الإنتاج لمؤشرات الإنذار المالي المبكر لجمعيات منطقة مكة المكرمة. شمل 92 جمعية في عينة الدراسة، وظهرت إشارات إنذار لدى 22 منها (23.9%). النتيجة وصفية غير موزونة وليست تعميمًا على جميع الجمعيات أو توقعًا مثبتًا للتعثر. نعرض المنهجية والكود والنتائج بشفافية، ونوثّق الاستثناءات المالية بصورة منفصلة.
 
-**Post status:** NOT PUBLISHED.  
-**X post URL:** Pending user publication.  
-**Official competition submission URL:** Not provided by the organizer yet.  
-**Required screenshot/video:** Must be created/published and linked before the official submission can be marked complete.
+https://github.com/wvwoo/Exec-Logic-xray
+
+#ExecLogic #تحليل_البيانات #القطاع_غير_الربحي
+
+**Status:** draft only. The organizing guide requires an actual post with project imagery/video and a real URL before official submission.

@@ -1,34 +1,22 @@
-# AI usage log | سجل استخدام الذكاء الاصطناعي
+# AI use disclosure | سجل استخدام الذكاء الاصطناعي
 
-## 2026-10-29 — Preparation and public repository setup
+## Tools and roles
+- **Claude (Anthropic)**, several sessions from 26 to 29 October 2026. It assisted with: extracting figures from published statements (every such row is flagged "needs review" at source), reading the v5 archive, writing the analysis and test code, cross-version arithmetic checks, figures, report and presentation drafts.
+- **Humans:** according to the project lead, Exec Logic members completed the human, financial and accounting reviews. AI output is not an audit opinion.
 
-- **Purpose:** Assist with financial-data quality auditing, identifying source conflicts, developing controlled inclusion/exclusion rules, drafting documentation and an initial Python evidence gate.
-- **Tools:** ChatGPT assisted with code drafting, arithmetic checks, methodological notes, source review organization and publication preparation.
-- **Human decisions:** The project lead approved excluding insufficiently substantiated records from certified findings while retaining their reasons in a private audit trail.
-- **Verification boundary:** Passing synthetic tests cannot verify actual PDF financial statements, reviewers' identities, geographic sampling, or final v6 estimates.
-- **Current limitation:** A complete independently certified financial panel and reproducible final v6 results have **not** been validated for this public release.
-- **Privacy:** Original statement PDFs, sensitive sources, and internal audit files are omitted from the public repository pending authorization.
+## Session of 29 October 2026 (integrity and release check): what was run
+| Step | Command / method | Result |
+|---|---|---|
+| Package integrity | `sha256sum -c SHA256SUMS.txt` | all files match |
+| Public tests (before changes) | `python -m unittest discover -s tests -v` | 4/4 pass |
+| Independent recomputation of the 12 metrics | re-implemented the five flags and tier from the candidate panel (restricted) | 22/92, 12/49, 10/43, 88 evaluable, 21 among evaluable, cash 6/10, unrestricted 9/8: **all match** |
+| Registry and sample validation | uniqueness, licence-format collisions, frame = 453 (263/190), N_h/n_h weights in 16 strata, reserve order | consistent; merge gap of 43 rows found; reserve-order skips in 2 strata need a recorded reason |
+| Contributor workbook re-check | arithmetic on workbook cells, key match to v5 | 29 / 13 flags reproduced; conflict counts depend on field scope |
+| New statistics | Fisher exact, Newcombe interval; values cross-checked with SciPy | match |
+| Public tests (after changes) | `python -m unittest discover -s tests -v` | 9/9 pass |
 
-This log is **provisional** and must be expanded to document significant model-generated analyses, verification steps, and any modifications to the final pipeline before contest submission.
+## What was not verified by AI
+Original statement PDFs for every record (3 PDFs were inspected directly in earlier sessions); signed reviewer decisions; the original algorithm behind the sample fingerprint; the X post and official submission.
 
-
-## 2026-10-29 — Source-derived exploratory reproduction
-
-- ChatGPT wrote and tested a Python source-data analysis, including five financial flags and a strict missing-data policy.
-- Removed 2 fixed exclusions and 3 quarantined records; used only primary sample entries with an identified geographic group.
-- Recomputed descriptive alerts on 92 latest-year associations: 22 flagged, 88 five-flag-complete.
-- Computed 95% Wilson descriptive intervals, checked all 12 publicly released summary counts, and produced PDF, PPTX and PNG outputs locally.
-- Derived a **non-identifying 17-cell aggregate table** to permit public reproducibility without financial statements, organization names or reviewer identities.
-- **Human oversight:** Lead attests human reviews finished, but this agent has not received signed final review decisions tied to each row and therefore does not certify source-level audit completeness.
-- **Validation:** Four private-analysis automated tests passed; matching 12/12 aggregate stats was independently checked against the source-derived outputs.
-- **Publication boundary:** AI did not publish an X post, submit the competition form, or confirm the final design weights.
-
-
-## 2026-10-29 — Updated Ritaj reconciliation and public release candidate
-
-- **New input:** Ritaj's updated financial workbook (59 populated financial-year rows, including one out-of-period 2022 entry; one additional incomplete row).
-- **Automated accounting flags:** 29 activities/change differences and 13 balance identity differences. These are exception candidates rather than verified source-statement errors.
-- **Cross-version check:** 41 matching license/year keys with v5; 311 available numeric comparisons; 84 differences above SAR 1; 18 unmatched Ritaj keys. No amounts were edited automatically.
-- **Human-review declaration:** Project leader reports Exec Logic members completed human, financial and accounting review. Signed independent per-record decisions were not available to this release; no such signature or professional audit opinion is invented.
-- **Publication:** published new two-row non-identifying aggregate data, a deterministic analysis script, synthetic/consistency tests and a release-status document. Created PDF, presentation, visualizations and private audit bundle locally; GitHub binary uploads and official X/form receipt were not evidenced in this session.
-- **Scope:** 12 descriptive metrics for 92 units; no certified survey-weighted v6 inference, association-level risk allegations or claims of full original-PDF re-verification.
+## Data handling
+The confidential panel was processed only to produce aggregate counts. No names, licences, amounts or documents appear in the public release.

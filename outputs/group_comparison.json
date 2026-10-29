@@ -1,0 +1,56 @@
+[
+  {
+    "metric": "confirmed_alert",
+    "major_cities": [
+      12,
+      49
+    ],
+    "other_governorates": [
+      10,
+      43
+    ],
+    "difference": 0.01234,
+    "newcombe95": [
+      -0.16307,
+      0.181726
+    ],
+    "fisher_exact_p_two_sided": 1.0,
+    "note": "Descriptive comparison of an unweighted sample; not causal, not population inference."
+  },
+  {
+    "metric": "critical_cash",
+    "major_cities": [
+      6,
+      49
+    ],
+    "other_governorates": [
+      10,
+      43
+    ],
+    "difference": -0.110109,
+    "newcombe95": [
+      -0.26895,
+      0.046748
+    ],
+    "fisher_exact_p_two_sided": 0.181136,
+    "note": "Descriptive comparison of an unweighted sample; not causal, not population inference."
+  },
+  {
+    "metric": "negative_unrestricted_net_assets",
+    "major_cities": [
+      9,
+      49
+    ],
+    "other_governorates": [
+      8,
+      43
+    ],
+    "difference": -0.002373,
+    "newcombe95": [
+      -0.1657,
+      0.154884
+    ],
+    "fisher_exact_p_two_sided": 1.0,
+    "note": "Descriptive comparison of an unweighted sample; not causal, not population inference."
+  }
+]
